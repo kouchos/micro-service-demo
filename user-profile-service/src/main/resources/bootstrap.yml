@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: user-profile-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+#  cloud:
+#    config:
+#      uri: http://config-service:8080
+#      fail-fast: true
+#      password: ${USER_SERVICE_PASSWORD}
+#      username: user
+eureka:
+  client:
+    enabled: false
